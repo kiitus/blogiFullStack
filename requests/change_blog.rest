@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/5ee0fa4172444e584cfacd72
+Content-Type: application/json
+
+{
+ "title": "Sahattu oksa",
+  "author": "Aki Tykki",
+  "url": "www.happoradio.fi",
+  "likes": 39
+  }

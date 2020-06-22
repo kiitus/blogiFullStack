@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlZTNiYTU3ZDkwNThjMDc0MGI1MDdhOCIsImlhdCI6MTU5MTk4MjcwNX0.8bNDKJw7rwwKXAyPZTeycoQxP1bKHIjzukQodXt5Hog
+
+{
+ "title": "Lauluja Suomeste",
+  "author": "Timo Rautiainen",
+  "url": "www.niskalaukaus.fi",
+  "likes": 100
+  }
